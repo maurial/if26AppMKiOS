@@ -14,6 +14,28 @@
 		896EF3D21FE032AC00EE2206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896EF3D01FE032AC00EE2206 /* LaunchScreen.storyboard */; };
 		896EF3DD1FE032AC00EE2206 /* if26AppMKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896EF3DC1FE032AC00EE2206 /* if26AppMKTests.swift */; };
 		896EF3E81FE032AC00EE2206 /* if26AppMKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896EF3E71FE032AC00EE2206 /* if26AppMKUITests.swift */; };
+		896EF4211FE0369700EE2206 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF4161FE0369700EE2206 /* FMDatabase.m */; };
+		896EF4221FE0369700EE2206 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF4161FE0369700EE2206 /* FMDatabase.m */; };
+		896EF4231FE0369700EE2206 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF4161FE0369700EE2206 /* FMDatabase.m */; };
+		896EF4241FE0369700EE2206 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF4181FE0369700EE2206 /* FMDatabaseAdditions.m */; };
+		896EF4251FE0369700EE2206 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF4181FE0369700EE2206 /* FMDatabaseAdditions.m */; };
+		896EF4261FE0369700EE2206 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF4181FE0369700EE2206 /* FMDatabaseAdditions.m */; };
+		896EF4271FE0369700EE2206 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF41A1FE0369700EE2206 /* FMDatabasePool.m */; };
+		896EF4281FE0369700EE2206 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF41A1FE0369700EE2206 /* FMDatabasePool.m */; };
+		896EF4291FE0369700EE2206 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF41A1FE0369700EE2206 /* FMDatabasePool.m */; };
+		896EF42A1FE0369700EE2206 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF41C1FE0369700EE2206 /* FMDatabaseQueue.m */; };
+		896EF42B1FE0369700EE2206 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF41C1FE0369700EE2206 /* FMDatabaseQueue.m */; };
+		896EF42C1FE0369700EE2206 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF41C1FE0369700EE2206 /* FMDatabaseQueue.m */; };
+		896EF42D1FE0369700EE2206 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF41F1FE0369700EE2206 /* FMResultSet.m */; };
+		896EF42E1FE0369700EE2206 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF41F1FE0369700EE2206 /* FMResultSet.m */; };
+		896EF42F1FE0369700EE2206 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 896EF41F1FE0369700EE2206 /* FMResultSet.m */; };
+		896EF4301FE0369700EE2206 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 896EF4201FE0369700EE2206 /* Info.plist */; };
+		896EF4311FE0369700EE2206 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 896EF4201FE0369700EE2206 /* Info.plist */; };
+		896EF4321FE0369700EE2206 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 896EF4201FE0369700EE2206 /* Info.plist */; };
+		896EF44D1FE03B7700EE2206 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896EF43F1FE03B2500EE2206 /* SQLite.framework */; };
+		896EF44E1FE03B9400EE2206 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896EF43F1FE03B2500EE2206 /* SQLite.framework */; };
+		896EF44F1FE03B9400EE2206 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 896EF43F1FE03B2500EE2206 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		896EF45C1FE0543F00EE2206 /* utt.png in Resources */ = {isa = PBXBuildFile; fileRef = 896EF4551FE0543F00EE2206 /* utt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +53,77 @@
 			remoteGlobalIDString = 896EF3C31FE032AC00EE2206;
 			remoteInfo = if26AppMK;
 		};
+		896EF43E1FE03B2500EE2206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		896EF4401FE03B2500EE2206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		896EF4421FE03B2500EE2206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		896EF4441FE03B2500EE2206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		896EF4461FE03B2500EE2206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		896EF4481FE03B2500EE2206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		896EF44A1FE03B2500EE2206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		896EF4501FE03B9400EE2206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		896EF4521FE03B9400EE2206 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				896EF44F1FE03B9400EE2206 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		896EF3C41FE032AC00EE2206 /* if26AppMK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = if26AppMK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +139,21 @@
 		896EF3E31FE032AC00EE2206 /* if26AppMKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = if26AppMKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		896EF3E71FE032AC00EE2206 /* if26AppMKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = if26AppMKUITests.swift; sourceTree = "<group>"; };
 		896EF3E91FE032AC00EE2206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896EF4151FE0369700EE2206 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		896EF4161FE0369700EE2206 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		896EF4171FE0369700EE2206 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		896EF4181FE0369700EE2206 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		896EF4191FE0369700EE2206 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		896EF41A1FE0369700EE2206 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		896EF41B1FE0369700EE2206 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		896EF41C1FE0369700EE2206 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		896EF41D1FE0369700EE2206 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		896EF41E1FE0369700EE2206 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		896EF41F1FE0369700EE2206 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		896EF4201FE0369700EE2206 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896EF4331FE0371F00EE2206 /* if26AppMKDatabaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if26AppMKDatabaseHeader.h; sourceTree = "<group>"; };
+		896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		896EF4551FE0543F00EE2206 /* utt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +161,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896EF44E1FE03B9400EE2206 /* SQLite.framework in Frameworks */,
+				896EF44D1FE03B7700EE2206 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +186,13 @@
 		896EF3BB1FE032AC00EE2206 = {
 			isa = PBXGroup;
 			children = (
+				896EF4331FE0371F00EE2206 /* if26AppMKDatabaseHeader.h */,
 				896EF3C61FE032AC00EE2206 /* if26AppMK */,
 				896EF3DB1FE032AC00EE2206 /* if26AppMKTests */,
 				896EF3E61FE032AC00EE2206 /* if26AppMKUITests */,
 				896EF3C51FE032AC00EE2206 /* Products */,
+				896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */,
+				896EF44C1FE03B7700EE2206 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +212,11 @@
 				896EF3C71FE032AC00EE2206 /* AppDelegate.swift */,
 				896EF3C91FE032AC00EE2206 /* ViewController.swift */,
 				896EF3CB1FE032AC00EE2206 /* Main.storyboard */,
+				896EF4551FE0543F00EE2206 /* utt.png */,
 				896EF3CE1FE032AC00EE2206 /* Assets.xcassets */,
 				896EF3D01FE032AC00EE2206 /* LaunchScreen.storyboard */,
 				896EF3D31FE032AC00EE2206 /* Info.plist */,
+				896EF4141FE0369700EE2206 /* fmdb */,
 			);
 			path = if26AppMK;
 			sourceTree = "<group>";
@@ -125,6 +239,46 @@
 			path = if26AppMKUITests;
 			sourceTree = "<group>";
 		};
+		896EF4141FE0369700EE2206 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				896EF4151FE0369700EE2206 /* FMDatabase.h */,
+				896EF4161FE0369700EE2206 /* FMDatabase.m */,
+				896EF4171FE0369700EE2206 /* FMDatabaseAdditions.h */,
+				896EF4181FE0369700EE2206 /* FMDatabaseAdditions.m */,
+				896EF4191FE0369700EE2206 /* FMDatabasePool.h */,
+				896EF41A1FE0369700EE2206 /* FMDatabasePool.m */,
+				896EF41B1FE0369700EE2206 /* FMDatabaseQueue.h */,
+				896EF41C1FE0369700EE2206 /* FMDatabaseQueue.m */,
+				896EF41D1FE0369700EE2206 /* FMDB.h */,
+				896EF41E1FE0369700EE2206 /* FMResultSet.h */,
+				896EF41F1FE0369700EE2206 /* FMResultSet.m */,
+				896EF4201FE0369700EE2206 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		896EF4351FE03B2500EE2206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				896EF43F1FE03B2500EE2206 /* SQLite.framework */,
+				896EF4411FE03B2500EE2206 /* SQLiteTests iOS.xctest */,
+				896EF4431FE03B2500EE2206 /* SQLite.framework */,
+				896EF4451FE03B2500EE2206 /* SQLiteTests Mac.xctest */,
+				896EF4471FE03B2500EE2206 /* SQLite.framework */,
+				896EF4491FE03B2500EE2206 /* SQLiteTests tvOS.xctest */,
+				896EF44B1FE03B2500EE2206 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		896EF44C1FE03B7700EE2206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +289,12 @@
 				896EF3C01FE032AC00EE2206 /* Sources */,
 				896EF3C11FE032AC00EE2206 /* Frameworks */,
 				896EF3C21FE032AC00EE2206 /* Resources */,
+				896EF4521FE03B9400EE2206 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				896EF4511FE03B9400EE2206 /* PBXTargetDependency */,
 			);
 			name = if26AppMK;
 			productName = if26AppMK;
@@ -218,6 +374,12 @@
 			mainGroup = 896EF3BB1FE032AC00EE2206;
 			productRefGroup = 896EF3C51FE032AC00EE2206 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 896EF4351FE03B2500EE2206 /* Products */;
+					ProjectRef = 896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				896EF3C31FE032AC00EE2206 /* if26AppMK */,
@@ -227,13 +389,67 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		896EF43F1FE03B2500EE2206 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 896EF43E1FE03B2500EE2206 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		896EF4411FE03B2500EE2206 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 896EF4401FE03B2500EE2206 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		896EF4431FE03B2500EE2206 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 896EF4421FE03B2500EE2206 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		896EF4451FE03B2500EE2206 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 896EF4441FE03B2500EE2206 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		896EF4471FE03B2500EE2206 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 896EF4461FE03B2500EE2206 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		896EF4491FE03B2500EE2206 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 896EF4481FE03B2500EE2206 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		896EF44B1FE03B2500EE2206 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 896EF44A1FE03B2500EE2206 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		896EF3C21FE032AC00EE2206 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896EF45C1FE0543F00EE2206 /* utt.png in Resources */,
 				896EF3D21FE032AC00EE2206 /* LaunchScreen.storyboard in Resources */,
 				896EF3CF1FE032AC00EE2206 /* Assets.xcassets in Resources */,
+				896EF4301FE0369700EE2206 /* Info.plist in Resources */,
 				896EF3CD1FE032AC00EE2206 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +458,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896EF4311FE0369700EE2206 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +466,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896EF4321FE0369700EE2206 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +479,11 @@
 			files = (
 				896EF3CA1FE032AC00EE2206 /* ViewController.swift in Sources */,
 				896EF3C81FE032AC00EE2206 /* AppDelegate.swift in Sources */,
+				896EF4241FE0369700EE2206 /* FMDatabaseAdditions.m in Sources */,
+				896EF42D1FE0369700EE2206 /* FMResultSet.m in Sources */,
+				896EF4271FE0369700EE2206 /* FMDatabasePool.m in Sources */,
+				896EF42A1FE0369700EE2206 /* FMDatabaseQueue.m in Sources */,
+				896EF4211FE0369700EE2206 /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +492,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				896EF3DD1FE032AC00EE2206 /* if26AppMKTests.swift in Sources */,
+				896EF4221FE0369700EE2206 /* FMDatabase.m in Sources */,
+				896EF4281FE0369700EE2206 /* FMDatabasePool.m in Sources */,
+				896EF42B1FE0369700EE2206 /* FMDatabaseQueue.m in Sources */,
+				896EF42E1FE0369700EE2206 /* FMResultSet.m in Sources */,
+				896EF4251FE0369700EE2206 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +505,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				896EF3E81FE032AC00EE2206 /* if26AppMKUITests.swift in Sources */,
+				896EF4231FE0369700EE2206 /* FMDatabase.m in Sources */,
+				896EF4291FE0369700EE2206 /* FMDatabasePool.m in Sources */,
+				896EF42C1FE0369700EE2206 /* FMDatabaseQueue.m in Sources */,
+				896EF42F1FE0369700EE2206 /* FMResultSet.m in Sources */,
+				896EF4261FE0369700EE2206 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +525,11 @@
 			isa = PBXTargetDependency;
 			target = 896EF3C31FE032AC00EE2206 /* if26AppMK */;
 			targetProxy = 896EF3E41FE032AC00EE2206 /* PBXContainerItemProxy */;
+		};
+		896EF4511FE03B9400EE2206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = 896EF4501FE03B9400EE2206 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -425,6 +663,7 @@
 		896EF3ED1FE032AC00EE2206 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = if26AppMK/Info.plist;
@@ -439,6 +678,7 @@
 		896EF3EE1FE032AC00EE2206 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = if26AppMK/Info.plist;
