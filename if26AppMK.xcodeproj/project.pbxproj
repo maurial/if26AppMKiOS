@@ -36,6 +36,7 @@
 		896EF44E1FE03B9400EE2206 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896EF43F1FE03B2500EE2206 /* SQLite.framework */; };
 		896EF44F1FE03B9400EE2206 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 896EF43F1FE03B2500EE2206 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		896EF45C1FE0543F00EE2206 /* utt.png in Resources */ = {isa = PBXBuildFile; fileRef = 896EF4551FE0543F00EE2206 /* utt.png */; };
+		89CD8C531FEAB06E008B3C85 /* Marks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CD8C521FEAB06E008B3C85 /* Marks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +155,7 @@
 		896EF4331FE0371F00EE2206 /* if26AppMKDatabaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if26AppMKDatabaseHeader.h; sourceTree = "<group>"; };
 		896EF4341FE03B2500EE2206 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
 		896EF4551FE0543F00EE2206 /* utt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utt.png; sourceTree = "<group>"; };
+		89CD8C521FEAB06E008B3C85 /* Marks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				896EF3D01FE032AC00EE2206 /* LaunchScreen.storyboard */,
 				896EF3D31FE032AC00EE2206 /* Info.plist */,
 				896EF4141FE0369700EE2206 /* fmdb */,
+				89CD8C521FEAB06E008B3C85 /* Marks.swift */,
 			);
 			path = if26AppMK;
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 				896EF3C81FE032AC00EE2206 /* AppDelegate.swift in Sources */,
 				896EF4241FE0369700EE2206 /* FMDatabaseAdditions.m in Sources */,
 				896EF42D1FE0369700EE2206 /* FMResultSet.m in Sources */,
+				89CD8C531FEAB06E008B3C85 /* Marks.swift in Sources */,
 				896EF4271FE0369700EE2206 /* FMDatabasePool.m in Sources */,
 				896EF42A1FE0369700EE2206 /* FMDatabaseQueue.m in Sources */,
 				896EF4211FE0369700EE2206 /* FMDatabase.m in Sources */,
